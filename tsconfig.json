@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "module": "commonjs",
+    "target": "ESNext",
+    "types": ["node"],
+    "moduleResolution": "node",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "removeComments": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
